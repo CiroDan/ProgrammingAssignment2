@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...){
 
 ##Here it is an example
 
-source("ProgrammingAssignment2/cachematrix.R")
+source("Assignment/cachematrix.R")
 mymatrix <- makeCacheMatrix(matrix(1:4, nrow=2, ncol=2))
 mymatrix$get()
 mymatrix$getInverse()
